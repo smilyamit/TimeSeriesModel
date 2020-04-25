@@ -1,0 +1,7 @@
+#1
+To avoid warning use this 2 step method
+import warnings
+warnings.filterwarnings("ignore")
+
+#2 if you want to avoid 2 step to load data with pandas than converting it into arrays, do as below
+
